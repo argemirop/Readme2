@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: rgb(245, 245, 248);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+
+article h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #333;
+}
+
+article p {
+    text-align: justify;
+}
+
+.encabezado {
+    font-size: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    background-image: linear-gradient(to right, rgb(214, 235, 79), rgb(215, 129, 255));
+    box-shadow: 10px 10px 10px gray;
+}
+
+aside,
+.derecha {
+    width: 30%;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #fff;
+}
+
+.derecha {
+    background: rgba(107, 111, 28, 0.912);
+}
+
+footer {
+    background-color: green;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    clear: both;
+}
