@@ -1,0 +1,170 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+header{
+    text-align: center;
+    color:  rgb(114, 64, 64);
+    background-color: rgb(192, 204, 207);
+    padding: 20px;
+}
+nav{
+    background-color: rgb(40, 61, 68);
+    padding: 15px;  
+    text-align: center;
+    
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(75, 89, 93);
+
+}
+body{
+    background-color:rgb(87, 132, 144) ;
+    color:black;
+}
+#imgfoto {
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+video{
+    text-align: center;
+}
+#imgcamara2{
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+fieldset{
+    background-color: rgb(40, 61, 68);
+    color:rgb(192, 204, 207);
+}
+aside table{
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 20%;
+    padding: 20px;
+}
+.centrado {
+    text-align: center;
+}
+tr th{
+    background-color: rgb(40, 61, 68);
+    padding: 8px;
+    color: rgb(149, 111, 111);
+}
+table tbody tr:nth-last-child(even ){
+    background-color: rgb(180, 222, 233);
+
+}
+table tbody tr:nth-last-child(odd){
+    background-color: rgb(49, 96, 109);
+
+}
+table tbody tr td{
+    padding: 6px 20px;
+}
+table tbody tr:hover{
+    background-color: rgb(238, 225, 225);
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+aside{
+    width: 20%;
+    background-color:  rgb(40, 61, 68);
+    padding: 20px;
+    height: 90vh;
+    float: left;
+}
+
+main{
+    width: 80%;
+    padding: 5%;
+    height: 90vh;
+    float: left;
+    overflow: scroll;
+
+}
+footer{
+    width: 100%;
+    background-color: rgb(40, 61, 68);
+    padding: 10px;
+    text-align: center;
+}
+article{
+    background-color:rgb(97, 141, 156) ;
+    padding: 20px;
+    margin: 20px;
+}
+fieldset{
+    padding: 15px;
+
+}
+main video{
+    padding: 30px;
+
+}
+.oculto{
+    display: none;
+}
+#boton{
+    background-color: lightblue;
+    width: 150px;
+    padding: 10px;
+}
+#cuadro{
+    background-color:  rgb(40, 61, 68);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+label{
+    background-color: lightgrey;
+    padding: 5px;
+}
+main div{
+    background-color:rgb(36, 79, 92);
+
+    margin: 10px;
+    padding: 7px;
+
+}
+main input{
+    margin: 16px;
+    width: 90px;
+}
+div button{
+    background-color: rgb(87, 125, 175);
+    width: 100px;
+    padding: 10px;
+}
+#enunciado{
+    background-color: rgb(40, 61, 68);
+    color: white;
+    margin: px;
+    padding: 10px;
+    
+}
+#preguntaactual{
+    background-color: rgb(40, 61, 68);
+    color: white;
+    padding: 10px;
+}
+#resultado{
+    background-color:  rgb(40, 61, 68);
+    color: white;
+    padding: 10px;
+}
