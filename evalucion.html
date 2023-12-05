@@ -1,23 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>evaluacion</title>
-    <link rel="stylesheet" href="./estilosinicio.css">
-</head>
-<body>
-    <nav>
-        <a href="inicio.html">Inicio</a>|
-        <a href="contenido.html">Contenidos</a>|
-        <a href="actividades.html">actividades</a>|
-        <a href="evalucion.html">evaluacion</a>|
-        <a href="materialComplementario.html">materialComplementario</a>|
-        <a href="creditos.html">Creditos</a>|
-    </nav>
-    <center>
-        <h1>Esta es la pagina de evaluacion</h1>
-        <hr noshade="noshade" color="black" size="3" width="60%">
-    </center>
-</body>
-</html>
+<DOCTIPE HTML>
+
+    <html>
+
+    <head>
+        <title>
+            EVALUACION
+        </title>
+        <link rel="stylesheet" href="./css/estilo.css">
+    </head>
+
+    <BODI>
+        <header class="row">
+            <strong>FOTOGRAFIA</strong>
+        </header>
+        <nav class="row">
+            <a href="./contenido.html">contenido</a>|
+            <a href="./actividad.html">actividad</a>|
+            <a href="./evaluacion.html">evaluacion</a>|
+            <a href="./creditos.html">creditos</a>|
+            <a href="./index.html">index</a>|
+            <a href="./materialComplementario.html">materialComplementario</a>|
+        </nav>
+        <div class="row">
+        <aside>
+            <table>
+                <tr>
+                    <th>Pregunta</th>
+                    <th>Valor</th>
+                    <th>Total</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">1a10 = 0.5</td>
+                    <tr>
+                        <td>2</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">2a10 = 1.0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">3a10 = 1.5</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">4a10 = 2.0</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">5a10= 2.5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">6a10 = 3.0</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">7a10 = 3.5</td>
+                    </tr>
+                     <tr>
+                        <td>8</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">8a10 = 4.0</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">9a10 = 4.5</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="centrado">0.5</td>
+                        <td class="centrado">10a10 = 5.0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </aside>
+        <main class="centrado">
+            <h1 id="cuadro">EVALUACION DE CONTENIDOS</h1>
+            
+            <button id="boton" >Iniciar Evaluacion &#128248;</button>
+            <div id="Pregunta" class="oculto">
+                <div id="preguntaactual">pregunta 1 de 10</div>
+                <div id="enunciado">enunciado</div>
+                <br>
+                <input type="radio" name="respuesta" id="respuesta1">
+                <label for="respuesta1" id="lrespuesta1">respuesta1 </label>
+                <br>
+                <input type="radio" name="respuesta" id="respuesta2">
+                <label for="respuesta2" id="lrespuesta2">respuesta2 </label>
+                <br>
+                <input type="radio" name="respuesta" id="respuesta3">
+                <label for="respuesta3" id="lrespuesta3">respuesta3 </label>
+                <br>
+                <input type="radio" name="respuesta" id="respuesta4">
+                <label for="respuesta4" id="lrespuesta4">respuesta4 </label>
+                <br>
+                <div id="resultado" class="oculto" class="centrado">resultado</div>
+                <br>
+                <button onclick="responder()">responder</button>
+            </div>
+        
+
+        </main>
+        </div>
+
+        </form>
+        <script src="./js/evaluacio.js"></script>
+    </BODI>
+    <footer class="row">
+        <pre><i><u><b>sebastian argumedo - argemiro perez - steeven harvey</u></i></DOCTIPE>                   <i>Licenciatura En Informatica</i></b>                       <time></time><mark>2023</mark></time></pre>
+    </footer>
+
+    </html>
