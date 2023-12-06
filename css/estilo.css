@@ -7,12 +7,12 @@
 }
 header{
     text-align: center;
-    color:  rgb(114, 64, 64);
+    color:  rgb(36, 24, 204);
     background-color: rgb(192, 204, 207);
     padding: 20px;
 }
 nav{
-    background-color: rgb(40, 61, 68);
+    background-color: rgb(76, 192, 231);
     padding: 15px;  
     text-align: center;
     
@@ -23,11 +23,11 @@ nav a{
     padding: 10px;
 }
 nav a:hover{
-    background-color: rgb(75, 89, 93);
+    background-color: rgb(15, 235, 51));
 
 }
 body{
-    background-color:rgb(87, 132, 144) ;
+    background-color:rgb(128, 201, 221) ;
     color:black;
 }
 #imgfoto {
@@ -46,8 +46,8 @@ video{
 }
 
 fieldset{
-    background-color: rgb(40, 61, 68);
-    color:rgb(192, 204, 207);
+    background-color: rgb(136, 192, 211);
+    color:rgb(239, 242, 243);
 }
 aside table{
     margin: 10px auto;
@@ -68,7 +68,7 @@ table tbody tr:nth-last-child(even ){
 
 }
 table tbody tr:nth-last-child(odd){
-    background-color: rgb(49, 96, 109);
+    background-color: rgb(152, 194, 206);
 
 }
 table tbody tr td{
@@ -84,7 +84,7 @@ table tbody tr:hover{
 }
 aside{
     width: 20%;
-    background-color:  rgb(40, 61, 68);
+    background-color:  rgb(221, 231, 235);
     padding: 20px;
     height: 90vh;
     float: left;
@@ -100,12 +100,12 @@ main{
 }
 footer{
     width: 100%;
-    background-color: rgb(40, 61, 68);
+    background-color: rgb(8, 218, 233);
     padding: 10px;
     text-align: center;
 }
 article{
-    background-color:rgb(97, 141, 156) ;
+    background-color:rgb(73, 122, 196) ;
     padding: 20px;
     margin: 20px;
 }
@@ -126,17 +126,17 @@ main video{
     padding: 10px;
 }
 #cuadro{
-    background-color:  rgb(40, 61, 68);
+    background-color:  rgb(7, 178, 235);
     color: white;
     margin: 10px;
     padding: 10px;
 }
 label{
-    background-color: lightgrey;
+    background-color: rgb(211, 211, 211)211, 211);
     padding: 5px;
 }
 main div{
-    background-color:rgb(36, 79, 92);
+    background-color:rgb(11, 184, 236);
 
     margin: 10px;
     padding: 7px;
@@ -147,24 +147,24 @@ main input{
     width: 90px;
 }
 div button{
-    background-color: rgb(87, 125, 175);
+    background-color: rgb(10, 106, 233);
     width: 100px;
     padding: 10px;
 }
 #enunciado{
-    background-color: rgb(40, 61, 68);
+    background-color: rgb(27, 12, 230);
     color: white;
     margin: px;
     padding: 10px;
     
 }
 #preguntaactual{
-    background-color: rgb(40, 61, 68);
+    background-color: rgb(10, 176, 231);
     color: white;
     padding: 10px;
 }
 #resultado{
-    background-color:  rgb(40, 61, 68);
+    background-color:  rgb(12, 231, 81);
     color: white;
     padding: 10px;
 }
